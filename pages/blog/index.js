@@ -23,12 +23,14 @@ function Blog() {
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
             <Link href="/blog/123">
               <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
-                <img
-                  src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
-                  loading="lazy"
-                  alt="Photo by Minh Pham"
-                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-                />
+                <picture>
+                  <img
+                    src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+                    loading="lazy"
+                    alt="Photo by Minh Pham"
+                    className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                  />
+                </picture>
               </a>
             </Link>
 
@@ -46,12 +48,14 @@ function Blog() {
               <div className="flex justify-between items-end mt-auto">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
-                    <img
-                      src="https://images.unsplash.com/photo-1611898872015-0571a9e38375?auto=format&q=75&fit=crop&w=64"
-                      loading="lazy"
-                      alt="Photo by Brock Wegner"
-                      className="w-full h-full object-cover object-center"
-                    />
+                    <picture>
+                      <img
+                        src="https://images.unsplash.com/photo-1611898872015-0571a9e38375?auto=format&q=75&fit=crop&w=64"
+                        loading="lazy"
+                        alt="Photo by Brock Wegner"
+                        className="w-full h-full object-cover object-center"
+                      />
+                    </picture>
                   </div>
 
                   <div>
@@ -72,12 +76,14 @@ function Blog() {
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
             <Link href="/blog/123">
               <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
-                <img
-                  src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
-                  loading="lazy"
-                  alt="Photo by Lorenzo Herrera"
-                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-                />
+                <picture>
+                  <img
+                    src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                    loading="lazy"
+                    alt="Photo by Lorenzo Herrera"
+                    className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                  />
+                </picture>
               </a>
             </Link>
 
@@ -95,12 +101,14 @@ function Blog() {
               <div className="flex justify-between items-end mt-auto">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
-                    <img
-                      src="https://images.unsplash.com/photo-1586116104126-7b8e839d5b8c?auto=format&q=75&fit=crop&w=64"
-                      loading="lazy"
-                      alt="Photo by peter bucks"
-                      className="w-full h-full object-cover object-center"
-                    />
+                    <picture>
+                      <img
+                        src="https://images.unsplash.com/photo-1586116104126-7b8e839d5b8c?auto=format&q=75&fit=crop&w=64"
+                        loading="lazy"
+                        alt="Photo by peter bucks"
+                        className="w-full h-full object-cover object-center"
+                      />
+                    </picture>
                   </div>
 
                   <div>
@@ -121,12 +129,14 @@ function Blog() {
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
             <Link href="/blog/123">
               <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
-                <img
-                  src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
-                  loading="lazy"
-                  alt="Photo by Magicle"
-                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-                />
+                <picture>
+                  <img
+                    src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
+                    loading="lazy"
+                    alt="Photo by Magicle"
+                    className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                  />
+                </picture>
               </a>
             </Link>
 
@@ -144,12 +154,14 @@ function Blog() {
               <div className="flex justify-between items-end mt-auto">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
-                    <img
-                      src="https://images.unsplash.com/photo-1592660503155-7599a37f06a6?auto=format&q=75&fit=crop&w=64"
-                      loading="lazy"
-                      alt="Photo by Jassir Jonis"
-                      className="w-full h-full object-cover object-center"
-                    />
+                    <picture>
+                      <img
+                        src="https://images.unsplash.com/photo-1592660503155-7599a37f06a6?auto=format&q=75&fit=crop&w=64"
+                        loading="lazy"
+                        alt="Photo by Jassir Jonis"
+                        className="w-full h-full object-cover object-center"
+                      />
+                    </picture>
                   </div>
 
                   <div>
@@ -170,12 +182,14 @@ function Blog() {
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
             <Link href="/blog/123">
               <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
-                <img
-                  src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
-                  loading="lazy"
-                  alt="Photo by Martin Sanchez"
-                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-                />
+                <picture>
+                  <img
+                    src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+                    loading="lazy"
+                    alt="Photo by Martin Sanchez"
+                    className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                  />
+                </picture>
               </a>
             </Link>
 
@@ -193,12 +207,14 @@ function Blog() {
               <div className="flex justify-between items-end mt-auto">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 shrink-0 bg-gray-100 rounded-full overflow-hidden">
-                    <img
-                      src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&q=75&fit=crop&w=64"
-                      loading="lazy"
-                      alt="Photo by Aiony Haust"
-                      className="w-full h-full object-cover object-center"
-                    />
+                    <picture>
+                      <img
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&q=75&fit=crop&w=64"
+                        loading="lazy"
+                        alt="Photo by Aiony Haust"
+                        className="w-full h-full object-cover object-center"
+                      />
+                    </picture>
                   </div>
 
                   <div>
