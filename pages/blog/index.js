@@ -21,26 +21,20 @@ function Blog() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 xl:gap-8">
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
-            <a
-              href="/blog/123"
-              className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
-                loading="lazy"
-                alt="Photo by Minh Pham"
-                className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-              />
-            </a>
+            <Link href="/blog/123">
+              <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                <img
+                  src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+                  loading="lazy"
+                  alt="Photo by Minh Pham"
+                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                />
+              </a>
+            </Link>
 
             <div className="flex flex-col flex-1 p-4 sm:p-6">
               <h2 className="text-gray-800 text-lg font-semibold mb-2">
-                <a
-                  href="/blog/123"
-                  className="hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  New trends in Tech
-                </a>
+                <Link href="/blog/123">New trends in Tech</Link>
               </h2>
 
               <p className="text-gray-500 mb-8">
@@ -76,26 +70,20 @@ function Blog() {
           </div>
 
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
-            <a
-              href="/blog/123"
-              className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
-                loading="lazy"
-                alt="Photo by Lorenzo Herrera"
-                className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-              />
-            </a>
+            <Link href="/blog/123">
+              <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                <img
+                  src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                  loading="lazy"
+                  alt="Photo by Lorenzo Herrera"
+                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                />
+              </a>
+            </Link>
 
             <div className="flex flex-col flex-1 p-4 sm:p-6">
               <h2 className="text-gray-800 text-lg font-semibold mb-2">
-                <a
-                  href="/blog/123"
-                  className="hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  Working with legacy stacks
-                </a>
+                <Link href="/blog/123">Working with legacy stacks</Link>
               </h2>
 
               <p className="text-gray-500 mb-8">
@@ -131,26 +119,20 @@ function Blog() {
           </div>
 
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
-            <a
-              href="/blog/123"
-              className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
-                loading="lazy"
-                alt="Photo by Magicle"
-                className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-              />
-            </a>
+            <Link href="/blog/123">
+              <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                <img
+                  src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600"
+                  loading="lazy"
+                  alt="Photo by Magicle"
+                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                />
+              </a>
+            </Link>
 
             <div className="flex flex-col flex-1 p-4 sm:p-6">
               <h2 className="text-gray-800 text-lg font-semibold mb-2">
-                <a
-                  href="/blog/123"
-                  className="hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  10 best smartphones for devs
-                </a>
+                <Link href="/blog/123">10 best smartphones for devs</Link>
               </h2>
 
               <p className="text-gray-500 mb-8">
@@ -186,26 +168,20 @@ function Blog() {
           </div>
 
           <div className="flex flex-col bg-white border rounded-lg overflow-hidden">
-            <a
-              href="/blog/123"
-              className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
-                loading="lazy"
-                alt="Photo by Martin Sanchez"
-                className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
-              />
-            </a>
+            <Link href="/blog/123">
+              <a className="group h-48 md:h-64 block bg-gray-100 overflow-hidden relative">
+                <img
+                  src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600"
+                  loading="lazy"
+                  alt="Photo by Martin Sanchez"
+                  className="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200"
+                />
+              </a>
+            </Link>
 
             <div className="flex flex-col flex-1 p-4 sm:p-6">
               <h2 className="text-gray-800 text-lg font-semibold mb-2">
-                <a
-                  href="/blog/123"
-                  className="hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  8 High performance Notebooks
-                </a>
+                <Link href="/blog/123">8 High performance Notebooks</Link>
               </h2>
 
               <p className="text-gray-500 mb-8">
