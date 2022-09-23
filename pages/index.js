@@ -9,14 +9,14 @@ export default function Home() {
       <Head>
         <title>Chamberrr | Home</title>
       </Head>
-      <div className={`${styles.boxWidth} bg-hero`}>
+      <div className={`${styles.boxWidth} bg-hero overflow-y-hidden`}>
         <Navbar textColor={"white"} />
         <div
-          className={`${styles.flexCenter} flex-row ${styles.paddingY} ${styles.paddingX} gap-24`}
+          className={`${styles.flexCenter} flex-row ${styles.paddingY} h-screen ${styles.paddingX} gap-24`}
         >
           <div>
             <p
-              className={`${styles.heading2} hero-animate delay-75 text-gradient`}
+              className={`text-5xl font-bold hero-animate delay-75 text-gradient`}
             >
               Hi, I&apos;m Chamberrr
             </p>
@@ -24,7 +24,7 @@ export default function Home() {
               Student • Fullstack Developer
             </p>
             <div className="flex hero-animate flex-row gap-3 mt-2">
-              <div className="w-16  bg-opacity-0 cursor-pointer bg-slate-500 transition-all hover:bg-opacity-100 duration-300 flex justify-center align-center h-16 border p-3">
+              <div className="w-16 bg-opacity-0 cursor-pointer bg-slate-500 transition-all hover:bg-opacity-100 duration-300 flex justify-center align-center h-16 border p-3">
                 <Image
                   src="/img/instagram.png"
                   width="128px"
