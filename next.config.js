@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: [
+      "tailwindui.com",
+      "source.unsplash.com",
+      "images.unsplash.com",
+      "upload.wikimedia.org",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
