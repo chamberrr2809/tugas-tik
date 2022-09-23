@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles, { layout } from "./styles";
+import styles, { layout } from "../styles";
 import Navbar from "./Navbar";
 
 export default function Home() {

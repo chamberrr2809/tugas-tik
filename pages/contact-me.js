@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "./styles";
+import styles from "../styles";
 import Navbar from "./Navbar";
 
 export default function ContactMe() {
